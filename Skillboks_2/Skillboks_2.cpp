@@ -95,6 +95,16 @@ int main()
 	cout << "Все значения сохраните в переменные и выводите в нужных местах, имитируя ввод данных." << endl;
 	cout << "Решение" << endl << endl;
 
-
+	int fullRepair;
+	cout << "Введите данные, сколько выходит полнная стоимость ремонта? - ";
+	cin >> fullRepair;
+	int numEntrance;
+	cout << "Введите количество подъездов в доме - ";
+	cin >> numEntrance;
+	int flat;
+	cout << "Введите количество квартир в одном подъезде - ";
+	cin >> flat;
+	int receipt = fullRepair / numEntrance / flat;
+	cout << "Каждая квартира должна платить по - " << receipt <<endl;
 }
 
