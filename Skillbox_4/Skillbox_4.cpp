@@ -1,9 +1,9 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 int main()
 {
-	/*Задание 2*/
+	/*Р—Р°РґР°РЅРёРµ 2*/
 	setlocale(LC_ALL,"ru");
 
 	int a = 42;
@@ -20,7 +20,7 @@ int main()
 	cout << a << endl;
 	cout << b << endl << endl << endl;
 
-	/*Задание 4*/
+	/*Р—Р°РґР°РЅРёРµ 4*/
 
 	int x = 42;
 	int y = 153;
