@@ -58,7 +58,8 @@ int main()
 	cout << "Маршрутка прибывает на остановку " << station1 << " В салоне " << passengers << " пасажиров!" << endl;
 	cout << "Сколько пассажиров село на остановке на остановке? - ";
 	cin >> wentPassengers;
-	passengers = passengers - outStation + wentPassengers;
+	passengers -= outStation;
+	passengers += wentPassengers;
 	cout << "Маршрутка отправляеться с остановке " << station1 << " на остановку " << station2 << " В салоне " << passengers << " пасажиров!" << endl << endl;
 	money += wentPassengers * 20;
 
@@ -67,7 +68,8 @@ int main()
 	cin >> outStation;
 	cout << "Сколько пассажиров село на остановке на остановке? - ";
 	cin >> wentPassengers;
-	passengers = passengers - outStation + wentPassengers;
+	passengers -= outStation;
+	passengers += wentPassengers;
 	cout << "Маршрутка отправляеться с остановке " << station2 << " на остановку " << station3 << " В салоне " << passengers << " пасажиров!" << endl << endl;
 	money += wentPassengers * 20;
 
@@ -76,7 +78,8 @@ int main()
 	cin >> outStation;
 	cout << "Сколько пассажиров село на остановке на остановке? - ";
 	cin >> wentPassengers;
-	passengers = passengers - outStation + wentPassengers;
+	passengers -= outStation;
+	passengers += wentPassengers;
 	cout << "Маршрутка отправляеться с остановке " << station3 << " на остановку " << station4 << " В салоне " << passengers << " пасажиров!" << endl << endl;
 	money += wentPassengers * 20;
 
@@ -85,7 +88,8 @@ int main()
 	cin >> outStation;
 	cout << "Сколько пассажиров село на остановке на остановке? - ";
 	cin >> wentPassengers;
-	passengers = passengers - outStation + wentPassengers;
+	passengers -= outStation;
+	passengers += wentPassengers;
 	money += wentPassengers * 20;
 
 	cout << endl;
