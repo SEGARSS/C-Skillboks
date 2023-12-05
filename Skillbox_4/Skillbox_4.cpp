@@ -18,5 +18,20 @@ int main()
 	b = temp;
 			
 	cout << a << endl;
-	cout << b << endl;
+	cout << b << endl << endl << endl;
+
+	/*Задание 4*/
+
+	int x = 42;
+	int y = 153;
+
+	cout << x << endl;
+	cout << y << endl << endl;
+
+	x = x + y;
+	y = x - y;
+	x = x - y;
+
+	cout << x << endl;
+	cout << y << endl;
 }
