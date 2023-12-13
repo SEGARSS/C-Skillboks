@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skillbox_14", "Skillbox_14\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skillbox_15", "Skillbox_15\Skillbox_15.vcxproj", "{9568A02E-CCC6-4E26-8603-DA5E9047A3DD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skillbox_16", "Skillbox_16\Skillbox_16.vcxproj", "{5C78B263-3519-46FF-A36E-DDF916B79881}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +163,14 @@ Global
 		{9568A02E-CCC6-4E26-8603-DA5E9047A3DD}.Release|x64.Build.0 = Release|x64
 		{9568A02E-CCC6-4E26-8603-DA5E9047A3DD}.Release|x86.ActiveCfg = Release|Win32
 		{9568A02E-CCC6-4E26-8603-DA5E9047A3DD}.Release|x86.Build.0 = Release|Win32
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Debug|x64.ActiveCfg = Debug|x64
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Debug|x64.Build.0 = Debug|x64
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Debug|x86.ActiveCfg = Debug|Win32
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Debug|x86.Build.0 = Debug|Win32
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Release|x64.ActiveCfg = Release|x64
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Release|x64.Build.0 = Release|x64
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Release|x86.ActiveCfg = Release|Win32
+		{5C78B263-3519-46FF-A36E-DDF916B79881}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
