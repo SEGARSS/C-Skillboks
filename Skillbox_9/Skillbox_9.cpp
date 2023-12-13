@@ -39,19 +39,27 @@ int main()
 
 	cout << "Введите первое число: ";
 	cin >> number1;
-	cout << "Введите второе число: ";
-	cin >> number2;
 
-	if (number1 < number2)
+	if (!(number1))
 	{
-		cout << "Число: " << number1 << " минимальное из двух введённых чисел" << endl;
-	}
-	else if (number1 > number2)
-	{
-		cout << "Число: " << number2 << " минимальное из двух введённых чисел" << endl;
+		cout << "Ошибка ввода данных." << endl;
 	}
 	else
 	{
-		cout << "Числа равны друг другу." << endl;
+		cout << "Введите второе число: ";
+		cin >> number2;
+		if (number1 < number2)
+		{
+			cout << "Число: " << number1 << " минимальное из двух введённых чисел" << endl;
+		}
+		else if (number1 > number2)
+		{
+			cout << "Число: " << number2 << " минимальное из двух введённых чисел" << endl;
+		}
+		else
+		{
+			cout << "Числа равны друг другу." << endl;
+		}
 	}
 }
+	
