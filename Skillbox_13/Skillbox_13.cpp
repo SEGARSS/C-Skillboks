@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 /*Задание 5. Кратность числа
@@ -36,17 +37,39 @@ int main()
 	cout << "Данная программа проверит, делиться ли одно число на другое без остатка." << endl;
 
 	cout << "Введите первое число: ";
-	cin>>number1;
 
-	cout << "Введите второе число: ";
-	cin>>number2;
-
-	if ( number1 % number2 == 0 )
+	if (!(cin>>number1))
 	{
-		cout << "Да: " << number1 << " делится на " << number2 << " без остатка!" << endl;
+		cout << "Введенны не коректные данные: ";
+	}
+	else if (number1 == 0 )
+	{
+		cout << "На 0 делить нельзя: ";
 	}
 	else
 	{
-		cout << "Нет: " << number1 << " не делится на " << number2 << " без остатка!" << endl;
+		int number2;
+		cout << "Введите второе число: ";
+
+		if (!(cin >> number2))
+		{
+			cout << "Введенны не коректные данные: ";
+		}
+		else if (number2 == 0)
+		{
+			cout << "На 0 делить нельзя: ";
+		}
+		else
+		{
+			if (number1 % number2 == 0)
+			{
+				cout << "Да: " << number1 << " делится на " << number2 << " без остатка!" << endl;
+			}
+			else
+			{
+				cout << "Нет: " << number1 << " не делится на " << number2 << " без остатка!" << endl;
+			}
+		}
 	}
+   return 0;
 }

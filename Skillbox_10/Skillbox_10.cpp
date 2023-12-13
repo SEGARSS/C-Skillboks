@@ -39,19 +39,29 @@ int main()
 
 	cout << "Введите первое число: ";
 	cin >> number1;
-	cout << "Введите второе число: ";
-	cin >> number2;
-	cout << "Введите ихнию сумму: ";
-	cin >> sum;
-
-	if ((number1 + number2) == sum)
+	
+	if (!(number1))
 	{
-		cout << "-----Проверяем----- " << endl;
-		cout << "Верно!" << endl;
+		cout << "Ошибка ввода данных." << endl;
 	}
 	else
 	{
-		cout << "-----Проверяем----- " << endl;
-		cout << "Ошибка! Верный результат: " << number1 + number2 << endl;
+		cout << "Введите второе число: ";
+		cin >> number2;
+		cout << "Введите ихнию сумму: ";
+		cin >> sum;
+
+		if ((number1 + number2) == sum)
+		{
+			cout << "-----Проверяем----- " << endl;
+			cout << "Верно!" << endl;
+		}
+		else
+		{
+			cout << "-----Проверяем----- " << endl;
+			cout << "Ошибка! Верный результат: " << number1 + number2 << endl;
+		}
 	}
+
+	
 }

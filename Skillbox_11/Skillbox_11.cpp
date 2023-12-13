@@ -28,20 +28,24 @@ int main()
 	cout << "Введите число: ";
 	cin>>number;
 
-	if (number < 0)
+	if (!(number))
 	{
-		cout << "введите положительное число:" <<endl;
-	}
-	else if (number == 0)
-	{
-		cout << "Число должно быть больше 0:" <<endl;
-	}
-	else if (number % 2 == 0)
-	{
-		cout << "Число: " << number << " чётное" <<endl;
+		cout << "Ошибка ввода: ";
 	}
 	else
 	{
-		cout << "Число: " << number << " не чётное" <<endl;
+		if (number < 0)
+		{
+			cout << "введите положительное число:" << endl;
+		}
+		else if (number % 2 == 0)
+		{
+			cout << "Число: " << number << " чётное" << endl;
+		}
+		else
+		{
+			cout << "Число: " << number << " не чётное" << endl;
+		}
 	}
+	
 }
