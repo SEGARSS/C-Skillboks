@@ -21,39 +21,26 @@ int main()
 	int x, y;
 	cout << "Введите кординаты x y через пробел:"; cin >> x >> y;
 
-	if (x > 0)
+
+	if (x > 0 && y > 0)
 	{
-		if (y > 0)
-		{
-			std::cout << "1" << std::endl;
-		}
-		else if (y < 0)
-		{
-			std::cout << "4" << std::endl;
-		}
-		else
-		{
-			std::cout << "На границе" << std::endl;
-		}
+		cout << "1" << endl;
 	}
-	else if (x < 0)
+	else if (x < 0 && y > 0)
 	{
-		if (y > 0)
-		{
-			std::cout << "2" << std::endl;
-		}
-		else if (y < 0)
-		{
-			std::cout << "3" << std::endl;
-		}
-		else
-		{
-			std::cout << "На границе" << std::endl;
-		}
+		cout << "2" << endl;
+	}
+	else if (x > 0 && y < 0)
+	{
+		cout << "3" << endl;
+	}
+	else if (x < 0 && y < 0)
+	{
+		cout << "4" << endl;
 	}
 	else
 	{
-		std::cout << "На границе" << std::endl;
+		cout << "На границе" << endl;
 	}
 	return 0;
 }

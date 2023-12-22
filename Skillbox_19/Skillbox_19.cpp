@@ -17,16 +17,13 @@ int main()
 	if (year <= 0)
 		return 0;
 
-	if (year % 100 == 0)
+	if (year % 100 == 0 && year % 400 == 0 && year % 4 == 0)
 	{
-		if (year % 400 == 0)
-			std::cout << "Yes" << std::endl;
-		else
-			std::cout << "No" << std::endl;
+		cout << "Yes" << std::endl;
 	}
-	else if (year % 4 == 0)
+	else
 	{
-		std::cout << "Yes" << std::endl;
+		cout << "No" << std::endl;
 	}
 
 	return 0;
