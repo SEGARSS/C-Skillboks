@@ -19,7 +19,7 @@ int main()
 	cout << "Сколько нагенсов вы хотите купить? ";
 	cin >> nagins;
 
-	if (nagins % 6 == 0 || nagins % 9 == 0 || nagins % 15 == 0 || (nagins - 9) % 6 == 0 || (nagins - 18) % 6 == 0)
+	if (nagins > 5 && nagins % 3 == 0)
 	{
 		cout << "Да, Васе удастся купить " << nagins << " макнаггетсов." << endl;
 	}
