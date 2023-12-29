@@ -17,12 +17,12 @@ int main()
 {
 	setlocale(LC_ALL,"ru");
 
-	string line = "Yes, I did everything!";
+	string line = "Да, я всё сделал!";
 
 	cout << "Выполнел ли ты поставленную задачу? ";
 	getline(cin, line);
 
-	while (line != "Yes, I did everything!")
+	while (line != "Да, я всё сделал!")
 	{
 		cout << "Выполнел ли ты поставленную задачу? ";
 		getline(cin, line);
