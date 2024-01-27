@@ -19,27 +19,27 @@ int main()
 
 	// Ввод данных с обработкой ошибок
 	cout << "Введите силу тяги F (ньютон): ";
-	while (!(std::cin >> F) || F < 0)
+	while (!(cin >> F) || F < 0)
 	{
 		cout << "Ошибка ввода. Введите положительное значение F: ";
 		cin.clear();
-		cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	}
 
 	cout << "Введите массу звездолета m (килограмм): ";
-	while (!(std::cin >> m) || m <= 0)
+	while (!(cin >> m) || m <= 0)
 	{
 		cout << "Ошибка ввода. Введите положительное значение m: ";
 		cin.clear();
-		cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	}
 
 	cout << "Введите время работы двигателя t (секунд): ";
-	while (!(std::cin >> t) || t < 0)
+	while (!(cin >> t) || t < 0)
 	{
 		cout << "Ошибка ввода. Введите положительное значение t: ";
 		cin.clear();
-		cin.ignore(std::numeric_limits<streamsize>::max(), '\n');
+		cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	}
 
 	// Расчет расстояния
