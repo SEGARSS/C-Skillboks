@@ -1,0 +1,10 @@
+namespace Skillbox129
+{
+    [bindable]
+    [default_interface]
+    runtimeclass constants 
+    {
+        constants();
+        Int32 MyProperty;
+    }
+}
