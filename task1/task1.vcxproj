@@ -22,8 +22,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{28c3bc56-acc1-486b-88ec-8a110bd37d16}</ProjectGuid>
-    <RootNamespace>Skillbox131</RootNamespace>
+    <ProjectGuid>{a7f4eb41-f446-430f-9c1f-60e6e0e0f35f}</ProjectGuid>
+    <RootNamespace>task1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
