@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.11)
+
+project(Skillbox127)
+
+# Включение поддержки C++11
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Поиск и включение библиотеки CPR
+include(FetchContent)
+
+FetchContent_Declare(
+  cpr
+  GIT_REPOSITORY https://github.com/libcpr/cpr.git
+  GIT_TAG 3b15fa82ea74739b574d705fea44959b58142eb8 # Замените на желаемый git-коммит из: https://github.com/libcpr/cpr/releases
+)
+
+FetchContent_MakeAvailable(cpr)
+
+# Добавление исполняемого файла вашего проекта
+add_executable(Skillbox127 D:/Obuchenie/C++/C-Skillboks/Skillbox_127/Skillbox_127.cpp)
+
+# Связывание библиотеки CPR с вашим исполняемым файлом
+target_link_libraries(Skillbox127 PRIVATE cpr)
