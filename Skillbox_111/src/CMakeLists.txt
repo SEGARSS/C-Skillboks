@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 
-add_executable(task1
+add_executable(Skillbox_111
     Skillbox_111.cpp
     cpu.cpp
     ${PRJ_INCLUDE_DIR}/cpu.h
@@ -14,4 +14,4 @@ add_executable(task1
     ${PRJ_INCLUDE_DIR}/kbd_.h
 )
 
-target_include_directories(task1 PUBLIC ${PRJ_INCLUDE_DIR})
+target_include_directories(Skillbox_111 PUBLIC ${PRJ_INCLUDE_DIR})
